@@ -1,0 +1,70 @@
+h2{
+    color: #e4aeae;
+}
+p{
+    color: aqua;
+    text-align: center;
+    background-color: skyblue;
+}
+.title{
+    color: wheat;
+    text-align: right;
+    font-size: 70px;
+}
+body{
+    background-image: url("pic1.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    /* ใช้ fix จะอยู่กับที่  scroll จะเลื่อนตามที่เลื่อน*/
+    background-attachment: fixed; 
+}
+#teacher{
+    font-size: 90px;
+    color: sandybrown;
+    text-align: center;
+    background-color: rgb(226, 255, 245);
+    padding: 100px;
+}
+p.error{ /*หลังจุดคือclass*/
+    color: azure;
+    font-size: 20px;
+    font-weight: bold;
+}
+p.success{
+    color: royalblue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+div{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+#box{
+    background-color: rgb(44, 199, 39);
+}
+#box2{
+    background-color: rgb(199,39,39);
+}
+#box3{
+    background-color: cornflowerblue;
+}
+#box4{
+    background-color: rgb(243, 170, 231);
+}
+#box5{
+    background-color: rgb(16, 46, 100);
+}
+.nav{
+    background-color: yellow;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    clear: left;
+}
+.nav li{
+    display: inline-block;
+
+    padding: 30px;
+}
